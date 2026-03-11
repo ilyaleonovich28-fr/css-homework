@@ -1,0 +1,187 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+button {
+  border: none;
+  background-color: transparent;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  background: #2965f1;
+}
+
+header span {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+}
+
+.main-section {
+  width: 100%;
+  height: 1024px;
+  background: #fafaff;
+}
+
+.main-title {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  color: #303030;
+}
+
+.main-text {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #303030;
+}
+
+.main-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.about-section {
+  width: 100%;
+  height: 883px;
+}
+
+select {
+  width: 150px;
+  height: 36px;
+  appearance: none;
+  border: none;
+  outline: none;
+  border: 1px solid rgba(48, 48, 48, 0.3);
+  border-radius: 5px;
+  width: 150px;
+  height: 36px;
+  background: rgba(255, 255, 255, 0);
+  background-size: 16px 16px;
+  background-image: url(assets/images/icon-check.svg);
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+}
+
+.section-title {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #303030;
+}
+
+.frameworks-list li {
+  position: relative;
+  padding-left: 22px;
+}
+.frameworks-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+
+  width: 18px;
+  height: 18px;
+
+  background-image: url(assets/images/icon-arrow.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  transform: translateY(-50%);
+}
+
+.books-list {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #303030;
+}
+ol {
+  list-style: decimal;
+  margin-left: 20px;
+}
+
+.label {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #303030;
+}
+input[type="checkbox"] {
+  accent-color: #2965f1;
+  margin-left: 4px;
+}
+
+.text-field {
+  width: 330px;
+  height: 36px;
+}
+
+.btn {
+  border-radius: 5px;
+  width: 125px;
+  height: 36px;
+  background: #2965f1;
+
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: #fff;
+}
+
+.line {
+  border: 1px solid rgba(48, 48, 48, 0.3);
+  max-width: 100%;
+  height: 0px;
+}
+
+table {
+  width: 300px;
+  height: 196px;
+  border-collapse: collapse;
+}
+
+th {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  color: #303030;
+}
+td {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  padding-left: 15px;
+  padding-top: 10px;
+  color: #303030;
+}
+
+footer {
+  max-width: 100%;
+  height: 70px;
+  background: rgba(163, 167, 255, 0.3);
+}
+
+.footer-link {
+  width: 78px;
+  height: 17px;
+}
