@@ -94,15 +94,17 @@ select {
   color: #303030;
   margin-bottom: 25px;
 }
+.frameworks-list {
+  padding: 0px 20px;
+}
 
 .frameworks-list li {
   position: relative;
-  padding: 0px 20px;
 }
 .frameworks-list li::before {
   content: "";
   position: absolute;
-  left: 0;
+  left: -20px;
   top: 50%;
 
   width: 18px;
